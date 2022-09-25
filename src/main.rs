@@ -4,6 +4,7 @@ use std::io::stdin;
 use std::thread::sleep;
 use std::time::Duration;
 //First cli app that i made for screen shotting a website and saving it to a file
+//You can use a crate that does this for you but i wanted to make my ownp
 fn main() {
     let mut s = String::new();
     let mut x_cords = String::new();
